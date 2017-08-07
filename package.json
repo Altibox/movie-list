@@ -9,6 +9,10 @@
     "lint": "node_modules/.bin/eslint src tools scripts",
     "lint:watch": "npm run lint -- --watch"
   },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/username/Altibox/movie-list.git"
+  },
   "dependencies": {},
   "devDependencies": {
     "babel-cli": "^6.14.0",
