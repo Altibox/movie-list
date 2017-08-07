@@ -9,8 +9,11 @@ const style = {
 
 export default class MovieListItem extends React.Component {
 	render() {
-		return <li onClick={() => this.props.onMovieClick(this.props.url)} style={style}>
-			{this.props.label} {this.props.selected ? 'SELECTED' : ''}
+		return <li
+			onClick={() => this.props.onMovieClick(this.props.url)}
+			style={style}
+			className={this.props.selected ? 'selected' : ''}>
+			{this.props.label}
 		</li>;
 	}
 }
