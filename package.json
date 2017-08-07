@@ -1,6 +1,6 @@
 {
   "name": "@altibox/movie-list",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "main": "tools/server.js",
   "scripts": {
     "test": "test",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/username/Altibox/movie-list.git"
+    "url": "git://github.com/Altibox/movie-list.git"
   },
   "dependencies": {},
   "devDependencies": {
