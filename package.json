@@ -1,6 +1,6 @@
 {
   "name": "@altibox/movie-list",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "main": "tools/server.js",
   "scripts": {
     "test": "test",
@@ -9,6 +9,7 @@
     "lint": "node_modules/.bin/eslint src tools scripts",
     "lint:watch": "npm run lint -- --watch"
   },
+  "main": "./src/index.js",
   "repository": {
     "type": "git",
     "url": "git://github.com/Altibox/movie-list.git"
