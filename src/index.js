@@ -1,3 +1,3 @@
-import Component from './component';
+import MovieList from './MovieList';
 
-export default Component;
+export default MovieList;
